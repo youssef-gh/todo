@@ -1,0 +1,16 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todos/new
+Content-Type: application/json
+
+{
+    "text": "hang out"
+}
+
+###
+DELETE http://localhost:3001/todos/delete/632f4a0ff1a9dbd8ac27b85f
+
+###
+GET http://localhost:3001/todos/complete/632f4dd45e1e7cda9762246b
